@@ -1,16 +1,16 @@
 ### Arquitectura del proyecto
 Es una arquitectura modular, separando cada responsabilidad en varios archivos para que sea más fácil su entendimeinto y su ampliación en un futuro si fuera necesario.
 
-Gestión de un instituto
-│
-├── main.py
-├── modelos.py
-├── utilidades.py
-├── persistencia.py
-└── README.md
-└── documentos
-        |___ documentacion.md
-        |___ arquitectura.md
+```text
+gestion-instituto/
+├── main.py               # Controlador CLI del programa
+├── modelos.py            # Modelos de datos
+├── utilidades.py         # Lógica y procesamiento de datos
+├── persistencia.py       # Manipulación y parsing de archivos 
+├── README.md             # Guía maestra de instalación y uso del programa
+└── documentos/
+    ├── documentacion.md  # Documentación completa del programa 
+    └── arquitectura.md   # Justificación del diseño
 
 
 ### main.py
