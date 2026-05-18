@@ -35,10 +35,12 @@ A,Naiara Carvajal,naiara@gmail.com,656847598,DAW,8|10|5
 
 # Instalación y Uso
 1. Descargar los 4 archivos
-   - main.py
-   - modelos.py
-   - utilidades.py
-   - persistencia.py
+   - main.py - Es el controlador CLI, el archivo que gestiona los parametros de entrada.
+   - modelos.py - Define los modelos que van a tener los datos de entrada.
+   - utilidades.py - Es el que lleva la lógica del programa.
+   - persistencia.py - Manipulación del sistema de archivos e parsing del CSV.
+   - README.md - Documentación del proyecto.
+     
 2. Configurar o instalar la versión necesaria de Python
     ```bash
    python --version
